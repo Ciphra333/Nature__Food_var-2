@@ -466,8 +466,8 @@ img {
     
     margin: 0 25px 0;
     color: #202620;
-    
 }
+
 /* Header End */
 
 /* Nav Start */
@@ -505,6 +505,9 @@ img {
 .social_item {
     color: #88B840;
     margin: 0 28px;
+}
+.nav__icon--desc {
+    display: none;
 }
 
 .nav__icon:hover, .nav__icon:focus, .nav__icon:active {
@@ -665,6 +668,7 @@ color: #ACACAC;
     flex-direction: row;
     background: url(../images/background__main.png) no-repeat;
     background-size: cover;
+    border-radius: 5px;
 }
 
 .h1__title {
@@ -698,7 +702,7 @@ color: #ACACAC;
 .main__pic-item {
     position: absolute;
     z-index: 1;
-    right: 0;
+    right: 0px;
     
 
     
@@ -1807,7 +1811,7 @@ opacity: .65 ;
     position: absolute;
     left: 70.76%;
     right: 1.25%;
-    top: 10%;
+    top: 15%;
     bottom: 49.33%;
 
 }
@@ -2357,24 +2361,23 @@ opacity: .65 ;
 
 /* Media Start */
 @media screen and (max-width:1440px) {
-    section {
-        width: 1440px;
-    }
     .container {
-        max-width: 1200px;
+        
     }
 }
 
 
 @media screen and (max-width:1200px) {
+
     .container {
-    width: 1200px;
+    max-width: 1200px;
     padding-left: 15px;
+    padding-right: 15px;
     }
 
     .header_wrap {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1200px;
     }
     .header_logo_item--first {
         height: 71px;
@@ -2389,6 +2392,10 @@ opacity: .65 ;
     .header_logo_suptitle {
         font-size: 11px;
     }
+    .nav__icon--second {
+        display: none;
+    }
+    
     .input_text {
         display: none;
     }
@@ -2401,29 +2408,22 @@ opacity: .65 ;
     .select {
         font-size: 15px;
     }
-    .select__block {
-        width: 1440px
-    }
     .select-form__submit {
         font-size: 16px;
     }
     .btn_form {
         right: -50px;
     }
-
-
-    .main {
-        width: 1440px;
-    }
     .h1__title {
-        font-size: 38px;
-        width: 55%;
+        font-size: 36px;
+        width: 52%;
     }
     .main__subtitle-text {
         max-width: 78%;
     }
     .main-pic-2 {
-        max-height: 609px;
+        max-height: 606px;
+        
     }
     .main__btn {
         padding: 13.16px 24px;
@@ -2443,30 +2443,42 @@ opacity: .65 ;
     .grid__img-2-first {
         width: 100%;
     }
-    .card__grid-third {
+    /* 2 Grid сетка Start */
+     .card__grid-third {
         grid-template-columns: repeat(2, 1fr);
     }
     .grid__img-third, .grid__img-2-third, .grid__img-section-1-third {
         width: 100%;
     }
+        .grid--item-third {
+            grid-row: 4/2;
+        }
+        .grid--info-3 {
+            height: 323px;
+        }
+        .grid__pre-text-section-red-third {
+            font-size: 13px;
+        }
+        .grid__pre-text-section-third {
+            font-size: 13px;
+        }
+        .grid__pre-text-first {
+            font-size: 13px;
+        }
+     /* 2 Grid сетка End */
+
     
-    .grid__item-sm-section-third, .grid__item-sm-third {
-        grid-column: 3 span;
-        border-radius: 10px;
-    }
-     .grid__item-lg-section-third {
-         grid-column-end: 4;
-     }
      .community__wrap {
          margin-bottom: 0;
      }
      .img__community-1 {
-         max-width: 1183px;
+         width: 100%;
      }
 
      .community__title {
          font-size: 42px;
          line-height: 50px;
+         top:16%;
      }
      .community__text {
          font-size: 17px;
@@ -2475,14 +2487,69 @@ opacity: .65 ;
      .community__btn {
          left:848px;
          padding: 15px 20px;
-         top:396px
+         top:450px
      }
      .experts__box-borders {
-         width: 1200px;
+         width: 100%;
      }
+     /* Slider Start */
      .slider {
          padding: 0px 66px;
+         column-gap: 78px;
+        flex-wrap: wrap;
+        row-gap: 0px;
      }
+     .slider .slick-prev {
+         left:-1.4%;
+     }
+     .slider .slick-next {
+         right: -1.4%;
+     }
+     /* Slider End */
+     .grid__img-1 {
+        width: 100%;
+    }
+    .grid__img-2 {
+        width: 100%;
+    }
+    .grid__info {
+        width: 100%;
+    }
+    .grid__main-text {
+        font-size: 20px;
+    }
+    /* Social Menu Start  */
+    .social__menu-time {
+        font-size: 16px;
+    }
+    .social__like-items {
+        font-size: 15px;
+    }
+    .nav__icon--desc {
+        display: block;
+    }
+    /* Social Menu End */
+    /* Politics Start */
+    .politics__img-1 {
+        width: 100%;
+    }
+    .politics__title {
+        font-size: 40px;
+    }
+    .politics__text {
+        font-size: 15px;
+    }
+    .grid__img-section-1 {
+        width: 100%;
+    }
+    /* Politics End */
+    .warning__main-wrap {
+        display: flex;
+    }
+    .main__pic-item {
+        right: 15px;
+    }
+    
 }
 
 
@@ -2509,6 +2576,7 @@ opacity: .65 ;
         margin-left: 0;
         max-width: none;
     }
+    
 
 }
 /* Media End */
