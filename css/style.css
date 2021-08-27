@@ -2362,8 +2362,54 @@ opacity: .65 ;
 /* Media Start */
 @media screen and (max-width:1440px) {
     .container {
-        
+        max-width: 1440px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
+    /* Header Start */
+    .header__wrap {
+        width: 100%;
+        max-width: 1440px;
+    }
+    .input_btn {
+        display: none;
+    }
+    .nav__icon--desc {
+        display: block;
+    }
+    /* Header End */
+
+    /* Main Start */
+    .main__pic-item {
+        right: 15px;
+    }
+    /* Main End */
+
+    /* Grid First Start */
+    .card__grid-first {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid__img-second-first {
+        width: 100%;
+    }
+    /* Grid First End */
+
+    /* Grid Third Start */
+    .card__grid-third {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid--item-third {
+        grid-row: 2;
+    }
+    .grid__img-section-1-third {
+     width: 100%;
+    }
+    .grid__img-2-third {
+        width: 100%;
+    }
+
+    
+    /* Grid Third End */
 }
 
 
