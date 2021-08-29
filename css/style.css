@@ -2362,14 +2362,16 @@ opacity: .65 ;
 /* Media Start */
 @media screen and (max-width:1440px) {
     .container {
-        max-width: 1440px;
+        width: 100%;
         padding-left: 15px;
         padding-right: 15px;
     }
     /* Header Start */
     .header__wrap {
-        width: 100%;
-        max-width: 1440px;
+        width: 100%;   
+    }
+    .header_logo {
+        justify-content: space-between;
     }
     .input_btn {
         display: none;
@@ -2380,12 +2382,24 @@ opacity: .65 ;
     /* Header End */
 
     /* Main Start */
+    .h1__title {
+        font-size: 40px;
+    }
+    .main__subtitle-text {
+        font-size: 22px;
+    }
+    .main__btn  {
+        font-size: 17px;
+    }
     .main__pic-item {
-        right: 15px;
+        right: 14px;
     }
     /* Main End */
 
     /* Grid First Start */
+    .grid__subtitle-first {
+        font-size: 36px;
+    }
     .card__grid-first {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -2408,8 +2422,41 @@ opacity: .65 ;
         width: 100%;
     }
 
-    
     /* Grid Third End */
+
+    /* Health Food Start  */
+    .grid__img-2 {
+        width: 100%;
+    }
+    .politics__img-1 {
+        width: 100%;
+    }
+    /* Health Food End  */
+    /* Grid Third Start */
+    .grid__subtitle-third {
+        font-size: 36px;
+    }
+    /* Grid Third End */
+    .community__title  {
+        font-size: 46px;
+    }
+    /* Community Start */
+    .community__text {
+        font-size: 17px;
+    }
+    .img__community-1 {
+        width: 100%;
+    }
+    /* Community End */
+    .slider {
+        padding: 0 87px;
+    }
+    .slider .slick-prev  {
+        left: -1.2%;
+    }
+    .slider .slick-next {
+        right: -1.2%;
+    }
 }
 
 
@@ -2527,7 +2574,7 @@ opacity: .65 ;
          top:16%;
      }
      .community__text {
-         font-size: 17px;
+         font-size: 15px;
          right: 7.21%;
      }
      .community__btn {
@@ -2593,7 +2640,7 @@ opacity: .65 ;
         display: flex;
     }
     .main__pic-item {
-        right: 15px;
+        right: 14px;
     }
     
 }
@@ -2601,7 +2648,7 @@ opacity: .65 ;
 
 
 
-@media screen and (max-width:960px) {
+/* @media screen and (max-width:960px) {
     .container {
         max-width: 960px;
     }
@@ -2624,5 +2671,5 @@ opacity: .65 ;
     }
     
 
-}
+} */
 /* Media End */
