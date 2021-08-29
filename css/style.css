@@ -2432,6 +2432,7 @@ opacity: .65 ;
         width: 100%;
     }
     /* Health Food End  */
+
     /* Grid Third Start */
     .grid__subtitle-third {
         font-size: 36px;
@@ -2447,7 +2448,12 @@ opacity: .65 ;
     .img__community-1 {
         width: 100%;
     }
+    .community__subtitle {
+        font-size: 36px;
+    }
     /* Community End */
+
+    /* Slider Start */
     .slider {
         padding: 0 87px;
     }
@@ -2456,6 +2462,10 @@ opacity: .65 ;
     }
     .slider .slick-next {
         right: -1.2%;
+    }
+    /* Slider End */
+    .grid__subtitle {
+        font-size: 36px;
     }
 }
 
@@ -2648,9 +2658,9 @@ opacity: .65 ;
 
 
 
-/* @media screen and (max-width:960px) {
+@media screen and (max-width:1024px) {
     .container {
-        max-width: 960px;
+        
     }
     .header_logo {
         justify-content: none;
@@ -2671,5 +2681,5 @@ opacity: .65 ;
     }
     
 
-} */
+} 
 /* Media End */
