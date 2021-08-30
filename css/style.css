@@ -2632,6 +2632,7 @@ opacity: .65 ;
         display: block;
     }
     /* Social Menu End */
+
     /* Politics Start */
     .politics__img-1 {
         width: 100%;
@@ -2660,26 +2661,204 @@ opacity: .65 ;
 
 @media screen and (max-width:1024px) {
     .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
         
     }
-    .header_logo {
-        justify-content: none;
-        padding: 0 40px;
-        margin: 0;
+    /* Header Start */
+    .header_logo_item--first {
+        height: 65px;
     }
+    .social__menu-items-first {
+        text-align: center;
+    }
+    .header_logo_item--second {
+        height: 76px;
+    }
+    .header_logo_title {
+        font-size: 14px;
+    }
+    .header_logo_suptitle {
+        font-size: 10px;
+    }
+    .nav_link {
+        font-size: 15px;
+        margin: 0 7px;
+    }
+    /* Header End */
+
     .select {
         max-width: none;
+        font-size: 11px;
     }
     .select__wrapper-wrap {
-        flex-direction: column;
+        flex-direction: wrap;
         width: inherit;
+        align-items: center;
 
     }
     .select-form__submit {
         margin-left: 0;
         max-width: none;
     }
+    .community__btn {
+        left: 723px;
+        top: 420px;
+    }
     
+    /* Select Start */
+    .select-form__submit {
+        margin-top: 0;
+        margin-left: 0;
 
+    }
+    /* Select End */
+
+    /* Grid Menu Start */
+    .grid__subtitle-first {
+        font-size: 30px;
+    }
+    .grid__wrapper-first {
+        align-items: baseline;
+    }
+    .grid__main-text-first {
+        font-size: 20px;
+    }
+    .social__menu-kcal-first {
+        font-size: 16px;
+    }
+    .social__menu-time-first {
+        font-size: 16px;
+    }
+    .main__title-text-first  {
+        font-size: 15px;
+        
+    }
+    .main__title-text {
+        margin-bottom: 15%;
+    }
+
+    .title__text-first {
+        font-size: 13px;
+    }
+    /* Grid Menu End */
+
+    /* Main Start */
+    .main-pic-2 {
+        max-height: 607px;
+        width: 100%;
+    }
+    .h1__title  {
+        font-size: 30px;
+        width: 44%;
+    }
+    .main-pic-1 {
+        width: 74%;
+    }
+    .main__subtitle-text {
+        max-width: 58%;
+    }
+    .main__wrap {
+        max-height: 599px;
+    }
+    .main__subtitle-text {
+        max-width: 57%;
+        font-size: 19px;
+    }
+    .main__btn {
+        padding: 10.16px 20px;
+        font-size: 15px;
+    }
+    /* Main End */
+
+    /* Grid Third Start */
+    .grid__subtitle-third {
+        font-size: 30px;
+    }
+    .grid__wrapper-third {
+        align-items: baseline;
+    }
+    .title__text-third {
+        font-size: 13px;
+    }
+    .title__text  {
+        font-size: 13px;
+    }
+    .social__menu-time-third {
+        font-size: 16px;
+    }
+    .social__menu-kcal-third {
+        font-size: 16px;
+    }
+    .main__title-text-third {
+        font-size: 15px;
+    }
+    .social__menu-items-third {
+        text-align: center;
+    }
+    /* Grid Third End */
+
+    /* Community Start */
+    .community__subtitle {
+        font-size: 30px;
+    }
+    .community__title {
+        font-size: 32px;
+        top: 18%;
+    }
+    .community__text  {
+        font-size: 15px;
+        top: 58%;
+    }
+    .community__btn {
+        left: 721px;
+        top: 420px;
+        width: 235px;
+        height: 52px;
+    }
+    /* Community End */
+
+   /* Health Food Start */
+   .grid__subtitle {
+       font-size: 30px;
+   }
+   .grid__wrapper {
+       align-items: baseline;
+   }
+   .social__menu-kcal {
+       font-size: 16px;
+   }
+   .main__title-text{
+       font-size: 15px;
+   }
+   .social__menu-items {
+    margin: 18px 8px;
+    text-align: center;
+   }
+   .grid__img-1 {
+       height: 100%;
+       object-fit: cover;
+   }
+   /* Health Food End */
+
+   /* Politics Start */
+   .politcs__suptitle  {
+       font-size: 12px;
+   }
+   .politics__title {
+       font-size: 30px;
+   }
+   .politics__text {
+    top: 83.29%;
+    font-size: 14px;
+   }
+   /* Politics End */
+
+   /* Footer Start */
+   .footer__logo-wrap {
+       right: 25%;
+   }
+   /* Footer End */
 } 
 /* Media End */
