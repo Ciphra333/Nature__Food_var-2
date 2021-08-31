@@ -2770,6 +2770,9 @@ opacity: .65 ;
         padding: 10.16px 20px;
         font-size: 15px;
     }
+    .main__btn {
+        margin-left: 34px;
+    }
     /* Main End */
 
     /* Grid Third Start */
@@ -2796,6 +2799,9 @@ opacity: .65 ;
     }
     .social__menu-items-third {
         text-align: center;
+    }
+    .social__menu-items-third {
+        text-align: inherit;
     }
     /* Grid Third End */
 
@@ -2860,5 +2866,252 @@ opacity: .65 ;
        right: 25%;
    }
    /* Footer End */
+}
+   
+   @media screen and (max-width:768px) {
+    .container {
+           width: 100%;
+           padding-left: 15px;
+           padding-right: 15px;
+       }
+    /* Header Start */
+    .header_wrap {
+            max-width: 768px;
+       }
+    .header_logo_item--first {
+        font-size: 58px;
+    }
+    .header_logo_item--second {
+        padding-left: 4px;
+        height: 65px;
+    }
+    .header_logo_item--first:first-child {
+        padding-left: 0;
+        height: 54px;
+    }
+    .header_logo_title {
+        font-size: 12px;
+    }
+    .social_item {
+        margin: 0 5px;
+    }
+    .nav_link {
+        font-size: 14px;
+        white-space: nowrap;
+        
+    }
+    .header_logo_text {
+        margin: 0 -2%;
+    }
+    /* Header End */
+
+    /* Select Start */
+    .select__wrapper-wrap {
+        display: block;
+    }
+    .select-form__submit {
+        margin-left: 0;
+        padding: 27px 25px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    /* Select End */
+    /* Main Start */
+    .main-pic-1 {
+        left: -56%;
+    }
+    .main-pic-2 {
+        max-height: 500px;
+    }
+    .main__wrap {
+        max-height: 499px;
+    }
+    .h1__title  {
+        font-size: 17px;
+        width: 45%;
+        line-height: 1.4;
+    }
+    .main__subtitle-text {
+        max-width: 50%;
+        font-size: 15px;
+        padding: 16px 40px;
+    }
+    /* Main End */
+
+
+    /* Grid Menu Start */
+    .grid__img-1-first {
+        width: 100%;
+    }
+    .social__menu-items-first {
+        text-align: inherit;
+    }
+    .main__title-text-first {
+        font-size: 14px;
+        
+    }
+    .grid__subtitle-first {
+        font-size: 22px;
+    }
+    .grid__btn-link-first::after {
+        width: 83px;
+    }
+    .grid__pre-text-first {
+        padding: 7px 8px;
+        margin: 14px 4px;
+    }
+    .social__menu-time-first {
+        font-size: 13px;
+    }
+    .social__menu-kcal-first {
+        font-size: 13px;
+    }
+    /* Grid Menu End */
+
+    /* Grid Menu Third Start */
+    .main__title-text-third {
+        font-size: 14px;
+    }
+    .span__text-link {
+        font-size: 13px;
+    }
+    
+    .grid__subtitle-third {
+    font-size:22px;
+    }
+    .grid__btn-link-third::after{
+        width: 83px;
+    }
+    .grid__main-text-third {
+        font-size: 20px;
+    }
+    .social__menu-time-third {
+        font-size: 13px;
+    }
+    .social__menu-kcal-third {
+        font-size: 13px;
+    }
+    /* Grid Menu Third End */
+
+    /* Community Start */
+    .community__title  {
+        font-size: 19px;
+        top: 23%;
+        line-height: 38px;
+    }
+    .community__text {
+        top: 43%;
+        font-size: 13px;
+    }
+    .community__btn {
+        left: 514px;
+        top: 337px;
+        width: 235px;
+        height: 47px;
+    }
+    .community__style-btn {
+        font-size: 16px;
+    }
+    .community__img-icon {
+        width: 23px;
+        height: 23px;
+        top: 24%;
+    }
+    .expert__title-main {
+        top: -6.55%;
+        font-size: 20px;
+    }
+    .community__subtitle {
+        font-size: 22px;
+    }
+    .grid__subtitle {
+        font-size: 22px;
+    }
+    /* Community End */
+
+
+    /* Grid  Start*/
+    .grid__btn-link::after {
+        width: 87px;
+    }
+    .social__menu-time {
+        font-size: 13px;
+    }
+    .social__menu-kcal {
+        font-size: 13px;
+    }
+    .main__title-text {
+        margin-bottom: 30%;
+    }
+    /* Grid End */
+
+    /* Politics Start */
+    .politcs__suptitle  {
+        font-size: 11px;
+    }
+    .politics__title {
+        font-size: 23px;
+        top: 71.45%;
+    }
+    .politics__text  {
+        top: 82.29%;
+        font-size: 13px;
+    }
+    .title__text {
+        font-size: 12px;
+    }
+    .grid__main-text {
+        font-size: 15px;
+    }
+    
+
+    /* Politics End */
+
+    /* Warning Start */
+    .warning__title {
+        font-size: 20px;
+    }
+    .warning__text  {
+        font-size: 15px;
+    }
+
+    /* Warning End */
+
+
+    /* Footer Start */
+    .footer__logo-wrap {
+        right: 14%;
+    }
+    .footer__logo_title {
+        font-size: 12px;
+    }
+    .footer__logo_suptitle  {
+        font-size: 10px;
+    }
+    .footer__logo-main {
+        width: 25%;
+    }
+    .footer__logo-item--first {
+        padding-left: 0;
+        height: 58px;
+    }
+    .nav__link-footer {
+        font-size: 14px;
+    }
+    .footer__logo-suptitle {
+        font-size: 10px;
+    }
+    .footer__logo-item--second {
+         padding-left: 4px;
+         height: 65px;
+    }
+    .footer__text {
+        font-size: 14px;
+    }
+    .footer__text-area {
+        font-size: 14px;
+    }
+    
+    /* Food End */
 } 
 /* Media End */

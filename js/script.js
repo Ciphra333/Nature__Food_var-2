@@ -19,6 +19,13 @@ $('.slider').slick();
           slidesToScroll: 1,
           infinite: true
         }
+      },
+      {
+        breakpoint: 769,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
       }
     ]
   });
