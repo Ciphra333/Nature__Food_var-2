@@ -24,7 +24,16 @@ $('.slider').slick();
         breakpoint: 769,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2
+          slidesToScroll: 2,
+          infinite: true
+        }
+      },
+      {
+        breakpoint: 541,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true
         }
       }
     ]
