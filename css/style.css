@@ -2919,6 +2919,7 @@ opacity: .65 ;
     /* Main Start */
     .main-pic-1 {
         left: -56%;
+        display: none;
     }
     .main-pic-2 {
         max-height: 500px;
@@ -3124,6 +3125,13 @@ opacity: .65 ;
     }
     /* Header End */
 
+    /* Main Start */
+    .main_wrapper {
+        overflow: hidden;
+    }
+    /* Main End */
+
+
     /* Community Start */
     .community__btn {
         left: 284px;
@@ -3168,6 +3176,13 @@ opacity: .65 ;
     /* Grid Start */
     .grid__subtitle-first {
         font-size: 17px;
+    }
+    .grid__item-lg-first {
+        grid-column-start: auto;
+        grid-column-end: auto;
+    }
+    .card__grid-first {
+        grid-template-columns: repeat(1, 1fr);
     }
     .span__text-link--second {
         font-size: 11px;
@@ -3244,9 +3259,15 @@ opacity: .65 ;
         object-fit: cover;
     }
     .grid__img--banana {
-        max-width: 500px;
         max-height: 334px;
         object-fit: cover;
+    }
+    .grid__item-lg-section-third {
+        grid-column-start: auto;
+        grid-column-end: auto;
+    }
+    .card__grid-third {
+        grid-template-columns: repeat(1, 1fr);
     }
     /* Grid Third End */
 
@@ -3282,10 +3303,23 @@ opacity: .65 ;
     /* Slider Start */
     .experts__box-borders {
         height: auto;
+        display: inline-block;
+        text-align: center;
     }
     .expert__title-main {
         top: -8.55%;
     }
+    .text__wrap {
+        max-width: none;
+    }
+    /* .slider__item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .text__wrap {
+        display: inline-block;
+    } */
     /* Slider End */
 
     /* Politics Start */
