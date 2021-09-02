@@ -3548,6 +3548,12 @@ opacity: .65 ;
 }
 @media screen and (max-width:320px) {
 
+    /* Header Start */
+    .header_logo {
+        justify-content: center;
+    }
+    /* Header End */
+
     /* Grid First Start */
     .grid__subtitle-first {
         font-size: 10px;
