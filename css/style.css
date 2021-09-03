@@ -1799,6 +1799,10 @@ opacity: .65 ;
 }
 .community__wrap {
     margin-bottom: 40px;
+    background-color: #88b840;
+    font-size: 0;
+    width: 100%;
+    display: inline-block;
 }
 .community__title {
     font-family: 'Gilroy';
@@ -1808,7 +1812,7 @@ opacity: .65 ;
     line-height: 61px;
     letter-spacing: 0.02em;
     color: #fff;
-    position: absolute;
+    position: inherit;
     left: 70.76%;
     right: 1.25%;
     top: 15%;
@@ -1816,20 +1820,21 @@ opacity: .65 ;
 
 }
 .community__text {
+    position: inherit;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
     color: #fff;
-    position: absolute;
+    position: inherit;
     left: 70.76%;
     right: 5.21%;
     top: 54%;
     bottom: 29.33%;
 }
 .community__btn {
-    position: absolute;
+    position: inherit;
     display: inline-flex;
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
@@ -1856,9 +1861,14 @@ opacity: .65 ;
     width: 25px;
     height: 25px;
     margin-left: 20px;
-    position: absolute;
+    position: relative;
     right: 10%;
     top: 25%;
+}
+.img__community-1 {
+    width: 65%;
+    display: inline-block;
+    vertical-align: middle;
 }
 /* Community End */
 
@@ -2446,7 +2456,14 @@ opacity: .65 ;
         font-size: 17px;
     }
     .img__community-1 {
-        width: 100%;
+        width: 65%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .community__wrap-text {
+        display: inline-block;
+        width: 35%;
+        vertical-align: middle;
     }
     .community__subtitle {
         font-size: 36px;
