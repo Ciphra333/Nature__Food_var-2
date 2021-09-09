@@ -677,7 +677,7 @@ color: #ACACAC;
     border-radius: 0px 5px 5px 0px;
     /* margin-top: 116px; */
     color: #fff;
-    padding: 27.45px 40px;
+    padding: 27px 40px;
     font-style: normal;
     font-weight: 800;
     font-size: 50px;
@@ -1905,6 +1905,7 @@ opacity: .65 ;
     display: inline-block;
     width: 35%;
     vertical-align: middle;
+    padding-left: 40px;
 }
 /* Community End */
 
@@ -2404,6 +2405,9 @@ opacity: .65 ;
     justify-content: space-between;
 }
 /* Slick Slider End */
+.main__wrap {
+    overflow: hidden;
+}
 
 /* Media Start */
 @media screen and (max-width:1440px) {
