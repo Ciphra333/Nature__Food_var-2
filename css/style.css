@@ -796,7 +796,7 @@ color: #ACACAC;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 56px;
-    align-items: center;
+    align-items: baseline;
     gap: 20px;
 }
 .grid__subtitle {
@@ -1136,7 +1136,7 @@ opacity: .65 ;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 56px;
-    align-items: center;
+    align-items: baseline;
     gap: 20px;
 }
 .grid__subtitle-first {
@@ -2589,7 +2589,8 @@ opacity: .65 ;
         padding: 13.16px 24px;
     }
     .main__text-wrap {
-        max-height: 235px;
+        /* max-height: 235px; */
+        margin-top: 15px;
     }
     .card__grid-first {
         grid-template-columns: repeat(2, 1fr);
@@ -3000,8 +3001,9 @@ opacity: .65 ;
     }
     .h1__title  {
         font-size: 17px;
-        /* width: calc(119% - 50px); */
+        width: 100%;
         line-height: 1.4;
+        margin-top: 10px;
     }
     .main__subtitle-text {
         /* max-width: 50%; */
@@ -3284,6 +3286,11 @@ opacity: .65 ;
     .grid__main-text-first {
         font-size: 19px;
     }
+    .grid__img-icon {
+        width: 18%;
+        margin-left: 0;
+    }
+    
     .social__like-icon-first {
         font-size: 11px;
     }
@@ -3496,9 +3503,9 @@ opacity: .65 ;
 
     /* Main Start */
     .h1__title {
-        width: 52%;
+        width: 100%;
         padding: 0 17px;
-        margin-top: 28px;
+        margin-top: -67px;
     }
     .main-pic-2 {
         /* width: 59%; */
@@ -3510,7 +3517,7 @@ opacity: .65 ;
         font-size: 13px;
     }
     .main__wrap {
-        max-height: 360px;
+        /* max-height: 360px; */
     }
     .main__text-wrap {
         width: 100%;
@@ -3520,11 +3527,13 @@ opacity: .65 ;
         background-size: 77%;
     }
     /* Main End */
+
     /* Select Start */
     .select-form__submit {
         font-size: 14px;
     }
     /* Select End */
+
     /* Grid Start */
     .grid__subtitle-first {
         font-size: 14px;
@@ -3532,11 +3541,12 @@ opacity: .65 ;
     .span__text-link--second {
         font-size: 10px;
     }
-    .grid__btn-link-first::after {
-        width: 64px;
-    }
+    
     .grid__img-icon-first {
         width: 18%;
+    }
+    .grid__btn-link::after  {
+        width: 74px;
     }
     /* Grid End */
 
@@ -3658,42 +3668,75 @@ opacity: .65 ;
     }
     /* Header End */
 
+    /* Main Start */
+    .h1__title  {
+        font-size: 14px;
+    }
+    .main__btn {
+        margin-left: 0;
+    }
+    /* Main End */
+
     /* Grid First Start */
     .grid__subtitle-first {
-        font-size: 10px;
+        font-size: 14px;
     }
     .span__text-link {
-        font-size: 9px;
+        font-size: 12px;
     }
     .grid__btn-link-first::after {
         width: 58px;
+    }
+    .grid__img-icon-third {
+        width: 18%;
+    }
+    .grid__img-icon {
+        margin-left: 0;
+        width: 18%;
     }
     /* Grid First End */
 
     /* Grid Start */
     .grid__btn-link::after {
-        width: 54px;
+        width: 76%;
+    }
+    .grid__pre-text-first {
+        font-size: 9px;
     }
      /* Grid End */
 
     /* Community Start */
     .community__title  {
-        font-size: 11px;
+        font-size: 14px;
     }
     .community__text  {
-        font-size: 8px;
+        font-size: 12px;
     }
     .community__btn  {
         width: 138px;
         left: 204px;
         top: 255px;
-        height: 21px;
+        height: 30px;
     }
     .community__style-btn {
         font-size: 11px;
     }
+    .img__community-1 {
+        width: 100%;
+    }
     /* Community End */
 
+    /* Experts Start */
+    .experts__title {
+        font-size: 14px;
+    }
+    .experts__text {
+        font-size: 12px;
+    }
+    .expr__items-icons {
+        width: 100%;
+    }
+    /* Experts End */
 
     /* Warning Start */
     .warning__title {
@@ -3704,12 +3747,25 @@ opacity: .65 ;
     }
     /* Warning End */
 
+    /* Politics Start */
+    .politcs__suptitle {
+        font-size: 10px;
+        top: 57%;
+    }
+    .politics__title {
+        font-size: 12px;
+        top: 63%;
+        line-height: 140%;
+    }
+    /* Politics End */
+
+
     /* Footer Start */
     .footer__logo-main {
-        width: 17%;
+        width: 16%;
     }
     .footer__logo-wrap {
-        right: -14%;
+        right: 0%;
         top: -16%;
         padding-left: 0;
         padding-right: 15px;
