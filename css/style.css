@@ -3677,6 +3677,12 @@ opacity: .65 ;
     }
     /* Main End */
 
+    /* Grid Third Start */
+    .grid__btn-link-third::after {
+        width: 74%;
+    }
+    /* Grid Third End */
+
     /* Grid First Start */
     .grid__subtitle-first {
         font-size: 14px;
@@ -3685,7 +3691,7 @@ opacity: .65 ;
         font-size: 12px;
     }
     .grid__btn-link-first::after {
-        width: 58px;
+        width: 73%;
     }
     .grid__img-icon-third {
         width: 18%;
